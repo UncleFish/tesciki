@@ -1,0 +1,28 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Subiekti</title>
+</head>
+
+<body>
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12"></div>
+      </div>
+      <div class="row">
+          <div class="col-sm-2">
+            {{>listaKlientow}}
+          </div>
+          <div class="col-sm-8">
+            {{>wyslijRozrachunki}}
+          </div>
+          <div class="col-sm-2">
+						<p id="demo"></p>
+					</div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12">
+            {{> szablonPDF}}
+          </div>
+      </div>
+  </div>
+</body>
